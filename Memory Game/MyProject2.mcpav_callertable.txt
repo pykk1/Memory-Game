@@ -1,0 +1,10 @@
+main
+	init_timer
+	__CC2DW
+Timer0_ISR
+	rand
+		srand
+		Mul_32x32
+	display
+	Div_16x16_S
+	Div_8x8_U
